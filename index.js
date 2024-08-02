@@ -6,7 +6,7 @@ const { note } = require("./database/db.js");
 app.use(express.json());
 app.use(cors());
 
-const PORT = 3000;
+const PORT = 10000;
 
 app.post("/", async (req, res) => {
   const noteParse = req.body;
